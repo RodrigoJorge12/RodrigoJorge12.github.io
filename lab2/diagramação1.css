@@ -1,0 +1,119 @@
+.menuCabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1550px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.cabeçalho{
+    padding-top: 8px;
+    background-color: white;   
+}
+.tituloCabeçalho{
+    border-right: 2px solid gray;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    padding-right: 65px;
+}
+.icones{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    height: 15px;
+    width: 140px;
+    justify-content: space-around;
+}
+.grid{
+    float: right;
+    border-right:  2px solid gray;
+    padding-right: 20px;
+    border-left:  2px solid gray;
+    padding-left: 20px;
+}
+.lupa{
+    float: left;
+    border-left:  2px solid gray;
+    padding-left: 20px;
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    
+}
+.cabeçalhoDiv1{
+    display: flex;
+    border-right: 0.5px solid lightgray;
+    border-left: 0.5px solid lightgray;
+    border-top: 0.5px solid lightgray;
+    flex-direction: row;
+    width: 800px;
+    height: 170px;
+    
+}
+.CabeçalhoDiv1Parte1{
+    display: flex;
+    border-right: 0.5px solid lightgray;
+    width: 575px;
+    flex-direction: column;
+    text-align: center; 
+}
+.tituloCabeçalhoParte1{
+    margin-bottom: -22px;
+    text-align: left;
+    margin-left: 59px;
+}
+.CabeçalhoDiv1Parte2{
+    display: flex;
+    width: 225px;
+    flex-direction: column;
+    text-align: center; 
+}
+.tituloCabeçalhoParte2{
+    margin-bottom: -1px;
+}
+.subTituloCabeçalhoParte2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.imagem1{
+    height: 36px;
+    border-radius: 50%;
+}
+.corpoDiv1{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    border: 0.5px solid lightgray;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    
+}
+.imagem2{
+    display: flex;
+    max-width: 720px;
+    max-height: 300px;
+    
+}
+.textoCorpo{
+    display: flex;
+    padding-right: 50px;
+}
+.rodapeDiv1{
+    display: flex;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+.rodapeDiv1 button{
+    padding: 20px 25px;
+    background-color: white;
+    border-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
