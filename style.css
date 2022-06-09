@@ -1,0 +1,55 @@
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.subtitulo{
+    display: flex;
+    justify-content: space-around;
+}
+.materias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.projetos{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.revisao{
+    display: flex;
+    justify-content: space-around;
+}
+.sites{
+    display: flex;
+    justify-content: space-around;
+}
+.atividade{
+    color: gray;
+    text-decoration: none;
+}
+.diagramaçao{
+    color: gray;
+    text-decoration: none;
+}
+.contato{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.linkedin{
+    text-decoration: none;
+    color: blue;
+}
+.github{
+    text-decoration: none;
+    color: black;
+}
