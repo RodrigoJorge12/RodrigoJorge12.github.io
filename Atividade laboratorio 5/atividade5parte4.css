@@ -1,0 +1,53 @@
+.cabecalho{
+    padding-top: 90px;
+    padding-bottom: 20px;
+   align-items: center;
+   text-align: center;
+}
+.circulo{
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.titulo{
+    border: 1px solid;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 100px;
+    padding-bottom: 0px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+.corpo{
+    display: flex;
+    padding-top: 20px;
+    border-top: 1px solid;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    padding: 30px;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.botao{
+    border: 1px solid;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    height: 25px;
+    width: 180px;
+    border-radius: 15%;
+    padding-top: 5px;
+}
