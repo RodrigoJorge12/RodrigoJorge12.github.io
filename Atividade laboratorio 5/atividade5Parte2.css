@@ -1,0 +1,36 @@
+.corpo{
+    background-color: lightgray;
+    width: 400px;
+    height: 235px;
+}
+.cima{
+    display: flex;
+    flex-direction: row;
+}
+.imagem{
+    max-width: 150px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+    
+}
+
+.titulo{
+    color: red;
+}
+.celula1{
+    background-color:orange;
+    color:  red;
+}
+.celula2{
+    background-color: yellow;
+    color: red;
+}
+.corpoTabela{
+    text-align: center;
+    padding-left: 50px;
+}
+.titulo{
+    padding-left: 40px;
+}
