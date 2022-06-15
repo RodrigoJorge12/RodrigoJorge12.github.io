@@ -3,6 +3,7 @@
     background-image: url("imagensPaginaPrincipal/corpo.jpg");
 }
 .textoCabecalho{
+    padding-top: 40px;
     color: lightblue;
     text-align: center;
     font-size: 60px;
@@ -33,6 +34,7 @@
     background-color: darkgray;
     padding: 12px;
     border-radius: 30px;
+    color: black;
 }
 .titulos2{
     color: aliceblue;
@@ -55,7 +57,7 @@
 }
 .linkedin{
     text-decoration: none;
-    color: darkblue;
+    color: blue;
 }
 .contatoLinkedin a:hover{
     border: 1px solid white;
