@@ -1,55 +1,99 @@
-.titulo{
-    display: flex;
+
+.pagina{
+    background-image: url("imagensPaginaPrincipal/corpo.jpg");
+}
+.textoCabecalho{
+    color: lightblue;
     text-align: center;
-    justify-content: space-around;
+    font-size: 60px;
 }
-.subtitulo{
-    display: flex;
-    justify-content: space-around;
+.titulos{
+    padding-top: 70px;
+    color: aliceblue;
+    text-align: center;
 }
-.materias{
+.textos{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.projeto{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.projetosFaculdade{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+}
+.projetosFaculdade a:hover{
+    border: 1px ridge white;
+    background-color: darkgray;
+    padding: 12px;
+    border-radius: 30px;
+}
+.titulos2{
+    color: aliceblue;
 }
 .projetos{
     display: flex;
-    text-align: center;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.revisao{
-    display: flex;
-    justify-content: space-around;
-}
-.sites{
-    display: flex;
-    justify-content: space-around;
-}
-.atividade{
-    color: gray;
-    text-decoration: none;
-}
-.diagramaçao{
-    color: gray;
-    text-decoration: none;
-}
-.contato{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.redes{
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+.titulos3{
+    color: aliceblue;
+}
+.rodape{
+    text-align: center;
+}
+.icones{
+    height: 20px;
+    width: 20px;
+    color: aliceblue;
+}
 .linkedin{
     text-decoration: none;
-    color: blue;
+    color: darkblue;
+}
+.contatoLinkedin a:hover{
+    border: 1px solid white;
+    background-color: lightblue;
+    padding: 12px;
+    border-radius: 30px;
+}
+.contatoInstagram a:hover{
+    border: 1px solid white;
+    background-color: lightcoral;
+    padding: 12px;
+    border-radius: 30px;
+
+}
+.contatoGithub a:hover{
+    border: 1px solid white;
+    background-color: black;
+    padding: 12px;
+    border-radius: 30px;
+}
+.instagram{
+    text-decoration: none;
+    color: rgb(194, 27, 138);
 }
 .github{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+/*.contatos a:hover{
+    border: 1px ridge white;
+    background-color: black;
+    padding: 12px;
+    border-radius: 30px;
+}*/
+.contatos{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
