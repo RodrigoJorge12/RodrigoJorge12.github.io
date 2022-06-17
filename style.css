@@ -119,7 +119,7 @@
 .contatos{
     position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   margin: 0px;
