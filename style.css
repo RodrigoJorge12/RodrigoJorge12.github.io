@@ -7,17 +7,20 @@
     color: lightblue;
     text-align: center;
     font-size: 60px;
+    text-shadow: 0.1em 0.1em #333;
 }
 .titulos{
     padding-top: 70px;
     color: aliceblue;
     text-align: center;
+    text-shadow: 0.1em 0.1em #333;
 }
 .textos{
-    color: white;
+    color: lightgray;
     font-size: 17px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0.1em 0.1em #333;
 }
 .projeto{
     text-decoration: none;
@@ -55,47 +58,79 @@
     width: 20px;
     color: aliceblue;
 }
-.linkedin{
-    text-decoration: none;
-    color: blue;
+.contatoLinkedin i{
+    font-size: 2em;
+    background-color: white;
+    border-radius: 10px;
 }
-.contatoLinkedin a:hover{
+.contatoInstagram i{
+    font-size: 2em;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.contatoGithub i{
+    font-size: 2em;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.contatoGithub a{
+    background-color: #fff;
+}
+.contatoLinkedin i:hover{
     border: 1px solid white;
     background-color: lightblue;
-    padding: 12px;
-    border-radius: 30px;
+    padding: 4px;
+    border-radius: 25px;
 }
-.contatoInstagram a:hover{
+
+.contatoInstagram i:hover{
     border: 1px solid white;
-    background-color: lightcoral;
-    padding: 12px;
-    border-radius: 30px;
+    background-color: lightblue;
+    padding: 4px;
+    border-radius: 20px;
 
 }
-.contatoGithub a:hover{
+.contatoGithub i:hover{
     border: 1px solid white;
-    background-color: black;
-    padding: 12px;
-    border-radius: 30px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 20px;
 }
-.instagram{
-    text-decoration: none;
-    color: rgb(194, 27, 138);
-}
-.github{
-    text-decoration: none;
-    color: white;
-}
-/*.contatos a:hover{
-    border: 1px ridge white;
-    background-color: black;
-    padding: 12px;
-    border-radius: 30px;
-}*/
-.contatos{
-    padding-left: 0px;
+.contatoLinkedin{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    padding-left: 50px;
+}
+.contatoInstagram{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 400px;
+}
+.contatoGithub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 400px;
+}
+.contatos{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+.contatos li{
+    list-style-type: none;
+    
+}
+.contatos li a{
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
 }
