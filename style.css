@@ -1,10 +1,11 @@
 
 .pagina{
-    background-image: url("imagensPaginaPrincipal/corpo.jpg");
+    background-image: url("imagensPaginaPrincipal/imagem\ 3.jfif");
+    background-size: 2500px;
 }
 .textoCabecalho{
     padding-top: 40px;
-    color: lightblue;
+    color: white;
     text-align: center;
     font-size: 60px;
     text-shadow: 0.1em 0.1em #333;
@@ -31,11 +32,13 @@
 .projetosFaculdade{
     display: flex;
     flex-direction: column;
+    height: 115%;
 }
 .projetosFaculdade a:hover{
     border: 1px ridge white;
     background-color: darkgray;
-    padding: 12px;
+    padding: 7px;
+    position: relative;
     border-radius: 30px;
     color: black;
 }
