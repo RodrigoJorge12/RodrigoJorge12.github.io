@@ -8,7 +8,6 @@
     color: white;
     text-align: center;
     font-size: 60px;
-    text-shadow: 0.1em 0.1em #333;
 }
 .titulos{
     padding-top: 70px;
@@ -27,7 +26,9 @@
     text-decoration: none;
     color: aliceblue;
     text-align: center;
+    padding: 12px;
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
 }
 .projetosFaculdade{
     display: flex;
@@ -36,10 +37,10 @@
 }
 .projetosFaculdade a:hover{
     border: 1px ridge white;
-    background-color: darkgray;
-    padding: 7px;
+    padding: 12px;
     position: relative;
     border-radius: 30px;
+    background-color: lightblue;
     color: black;
 }
 .titulos2{
