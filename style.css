@@ -35,7 +35,20 @@
     flex-direction: column;
     height: 115%;
 }
+.projetosFora{
+    display: flex;
+    flex-direction: column;
+    height: 115%;
+}
 .projetosFaculdade a:hover{
+    border: 1px ridge white;
+    padding: 12px;
+    position: relative;
+    border-radius: 30px;
+    background-color: lightblue;
+    color: black;
+}
+.projetosFora a:hover{
     border: 1px ridge white;
     padding: 12px;
     position: relative;
@@ -84,14 +97,14 @@
 }
 .contatoLinkedin i:hover{
     border: 1px solid white;
-    background-color: lightblue;
+    background-color: white;
     padding: 4px;
     border-radius: 25px;
 }
 
 .contatoInstagram i:hover{
     border: 1px solid white;
-    background-color: lightblue;
+    background-color: white;
     padding: 4px;
     border-radius: 20px;
 
@@ -121,7 +134,7 @@
     padding-left: 400px;
 }
 .contatos{
-    position: relative;
+position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
