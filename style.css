@@ -149,5 +149,18 @@ position: relative;
 .contatos li a{
     margin: 0 10px;
     display: inline-block;
-    transition: 0.5s;
+    
+}
+@media screen and (max-width:700px){
+    .projetos{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape{
+        display: none;
+    }
+    .titulos2{
+        text-align: center;
+    }
+    
 }
