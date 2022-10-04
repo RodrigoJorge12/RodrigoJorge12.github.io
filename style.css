@@ -2,7 +2,6 @@
     background-image:url(fotoCodigo.webp);
     height: 450px;
     width: 100%;
-    margin-left: -8px;
     margin-top: -22px;
     text-align: center;
     text-shadow: 1px;
@@ -22,6 +21,8 @@
     height: 10%;
     width: 10%;
     font-size: large;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .botaoCabecalho:hover{
     background-color: aliceblue;
@@ -74,6 +75,7 @@
     width: 280px;
     text-align: center;
     padding-bottom: 20%;
+    border: 10px solid rgb(28, 28, 28);;
 }
 .div2 h3{
     font-size: larger;
@@ -141,4 +143,68 @@
         flex-direction: column;
         padding-left: 18%;
     }
+}
+@media (min-width: 2150px){
+    .cabecalho{
+        height: 800px;
+    }
+    .tituloCabecalho{
+        font-size: 60px;
+    }
+    .paragrafoCabecalho{
+        font-size: 35px;
+    }
+    .botaoCabecalho{
+        font-size: 30px;
+    }
+    .tituloCorpo1{
+        font-size: 42px;
+    }
+    .p1{
+        font-size: 30px;
+    }
+    .div2 h3{
+        font-size: 45px; 
+    }
+    .div2 p{
+        font-size: 32px;
+    }
+    .div2{
+        width: 450px;
+    }
+    .botao{
+        font-size: 32px;
+}
+@media (min-width:3150px){
+    .cabecalho{
+        height: 1000px;
+    }
+    .tituloCabecalho{
+        font-size: 80px;
+    }
+    .paragrafoCabecalho{
+        font-size: 45px;
+    }
+    .botaoCabecalho{
+        font-size: 45px;
+    }
+    .tituloCorpo1{
+        font-size: 65px;
+    }
+    .p1{
+        font-size: 45px;
+    }
+    .div2 h3{
+        font-size: 60px; 
+    }
+    .div2 p{
+        font-size: 42px;
+    }
+    .div2{
+        width: 600px;
+    }
+    .botao{
+        font-size: 45px;  
+    }
+}
 }
