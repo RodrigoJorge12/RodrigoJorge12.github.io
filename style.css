@@ -1,5 +1,8 @@
+body{
+    margin: 0;
+}
 .cabecalho{
-    background-image:url(fotoCodigo.webp);
+    background-image:url(./assets/fotoCodigo.webp);
     height: 450px;
     width: 100%;
     margin-top: -22px;
