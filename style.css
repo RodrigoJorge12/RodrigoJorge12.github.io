@@ -190,6 +190,9 @@ body{
         height: 20%;
         width: 20%;   
     }
+    .div1{
+        flex-direction: column;
+    }
     .div2{
         width: 80%;
     }
