@@ -18,14 +18,13 @@ body{
     font-size: large;
 }
 .botaoCabecalho{
+    text-decoration: none;
     background-color: rgb(54, 54, 54);
     color: antiquewhite;
     border: solid 1px gray;
-    height: 10%;
     width: 10%;
     font-size: large;
-    margin-left: 20%;
-    margin-right: 20%;
+    
 }
 .botaoCabecalho:hover{
     background-color: aliceblue;
@@ -53,13 +52,27 @@ body{
 }
 .div1{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
 }
 .div1 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.minha-foto{
+    height: 300px;
+    border-radius: 50%;
+}
+.titulo-projetos{
+    color: aliceblue;
+    font-size: 32px;
+}
 .pt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:rgb(28, 28, 28);
 }
 .pt2 ul {
@@ -67,6 +80,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 15%;
     padding: 4%;
 } 
 .img{
@@ -125,7 +139,46 @@ body{
     margin-top: 7%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap:  15%;
+}
+.footer{
+    margin-top: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap:  100px;
+}
+.linkedin{
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+    color: antiquewhite;
+    border: solid 1px gray;
+    font-size: large;
+    height: 30px;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+}
+.linkedin:hover{
+    background-color: blue;
+}
+.github{
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+    color: antiquewhite;
+    border: solid 1px gray;
+    font-size: large;
+    height: 30px;
+    padding: 0.5% 1%;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+}
+.github:hover{
+    background-color: black;
 }
 @media (max-width: 975px) {
     .cabecalho{

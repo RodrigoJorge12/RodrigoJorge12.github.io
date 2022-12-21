@@ -14,18 +14,21 @@
         <h1 class="tituloCabecalho">Rodrigo Jorge</h1>
         <p class="paragrafoCabecalho">Aluno de Sistemas de informação </p>
         <div class="divCabecalho">
-            <button class="botaoCabecalho" onclick="window.open('https://github.com/RodrigoJorge12','_blank')">Github</button>
-            <button class="botaoCabecalho"onclick="window.open('https://www.linkedin.com/in/rodrigo-jorge-9325a7209/','_blank')">Linkedin</button>
+            <a class="botaoCabecalho" href=#pt1>Sobre</a>
+            <a class="botaoCabecalho" href="#pt2"">Projetos</a>
+            <a class="botaoCabecalho" href="#footer">Contato</a>
         </div>
     </header>
     <main>
-        <nav class="pt1">
-            <h2 class="tituloCorpo1">About Me</h2>
+        <nav id="pt1" class="pt1">
+            <h2 class="tituloCorpo1">Sobre Mim</h2>
             <div class="div1">
-                <p class="p1">Nascido em Nova Fributgo, atualmente com 19 anos <br>cursando sistemas de informação no CEFET-RJ atualmente <br> no 4° periodo.</p>
+                <img class="minha-foto" src="assets/fotoMinha.jpeg" alt="minha foto">
+                <p class="p1">Nascido em Nova Fributgo, atualmente com 19 anos <br>cursando sistemas de informação no CEFET-RJ atualmente <br> no 4° periodo. Tendo atuado como estagiario na empresa <br> HSE Assessoria por 3 meses auxiliando na migração de<br> sistemas da empresa alem de atuar por 8 meses <br> como monitor na materia de matematica discreta. </p>
             </div>
         </nav>
-        <nav class="pt2">
+        <nav id="pt2" class="pt2">
+            <h1 class="titulo-projetos">Projetos</h1>
             <ul>
                 <li>
                     <div class="div2">
@@ -54,5 +57,9 @@
             </ul>
         </nav>
     </main>
+    <footer id="footer" class="footer">
+        <a class="linkedin" href="https://www.linkedin.com/in/rodrigo-jorge-9325a7209/" target="_blank">Linkedin</a>
+        <a class="github" href="https://github.com/RodrigoJorge12" target="_blank">Github</a>
+    </footer>
 </body>
 </html>
