@@ -1,6 +1,61 @@
 body{
     margin: 0;
 }
+.hamburger {
+    top: 50px;
+    left: 20px;
+    display:block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    padding: 0;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+  
+.bar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    left: 0;
+}
+  
+.bar:first-child {
+    top: 0;
+}
+  
+.bar:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+.bar:last-child {
+    bottom: 0;
+}
+  
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 15%;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+.opcaoMenu{
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+.show {
+    display: block;
+}
 .cabecalho{
     background-image:url(./assets/background.jpg);
     height: 450px;
@@ -16,19 +71,6 @@ body{
 .paragrafoCabecalho{
     color: aliceblue;
     font-size: large;
-}
-.botaoCabecalho{
-    text-decoration: none;
-    background-color: rgb(54, 54, 54);
-    color: antiquewhite;
-    border: solid 1px gray;
-    width: 10%;
-    font-size: large;
-    
-}
-.botaoCabecalho:hover{
-    background-color: aliceblue;
-    color: black;
 }
 .botao{
     background-color: rgb(54, 54, 54);
@@ -137,14 +179,7 @@ body{
 .div4p{
     padding: 4.8%;
 }
-.divCabecalho{
-    margin-top: 7%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap:  15%;
-}
+
 .footer{
     margin-top: 50px;
     height: 80px;
@@ -182,16 +217,21 @@ body{
 .github:hover{
     background-color: black;
 }
-@media (max-width: 975px) {
+@media (max-width: 900px) {
     .cabecalho{
         height: 50%;
         padding-bottom: 10%
     }
-    .botaoCabecalho{
-        font-size: medium;
-        height: 20%;
-        width: 20%;   
+    .menu{
+        top: 47px;
+        left: 0;
+        width: 100%;
+        
     }
+    .opcaoMenu{
+        font-size: 30px;
+        
+    }    
     .div1{
         flex-direction: column;
     }
@@ -216,8 +256,12 @@ body{
     .paragrafoCabecalho{
         font-size: 35px;
     }
-    .botaoCabecalho{
-        font-size: 30px;
+    .hamburger{
+        height: 40px;
+        width: 60px;
+    }
+    .opcaoMenu{
+        font-size: 60px;
     }
     .tituloCorpo1{
         font-size: 42px;
@@ -247,9 +291,7 @@ body{
     .paragrafoCabecalho{
         font-size: 45px;
     }
-    .botaoCabecalho{
-        font-size: 45px;
-    }
+    
     .tituloCorpo1{
         font-size: 65px;
     }
