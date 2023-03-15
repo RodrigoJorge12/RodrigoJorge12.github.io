@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    min-width: 100%;
 }
 .hamburger {
     top: 50px;
@@ -91,6 +92,9 @@ body{
     font-size: 1.5em;
     
 }
+main{
+    min-width: 100%;
+}
 .pt1{
     text-align: center;
 }
@@ -118,13 +122,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color:rgb(28, 28, 28);
+    min-width: 100%;
 }
 .pt2 ul {
     list-style:none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 15%;
+    gap: 5%;
     padding: 4%;
 } 
 .img{
@@ -181,13 +186,13 @@ body{
 }
 
 .footer{
-    margin-top: 50px;
     height: 80px;
     display: flex;
     justify-content: center;
-    gap:  100px;
+    gap:  15%;
 }
 .linkedin{
+    margin-top: 50px;
     text-decoration: none;
     background-color: rgb(54, 54, 54);
     color: antiquewhite;
@@ -202,7 +207,17 @@ body{
 .linkedin:hover{
     background-color: blue;
 }
+.Codigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#qrcode{
+    height: 100px;
+}
+
 .github{
+    margin-top: 50px;
     text-decoration: none;
     background-color: rgb(54, 54, 54);
     color: antiquewhite;
@@ -243,7 +258,21 @@ body{
     }
     .pt2 ul{
         flex-direction: column;
-        padding-left: 18%;
+        padding-left: 10%;
+        
+    }
+    .Codigo p{
+        font-size: 10px;
+    }
+    .github{
+        height: 40px;
+        font-size: 25px;
+        margin-right: 10%;
+    }
+    .linkedin{
+        height: 40px;
+        font-size: 25px;
+        margin-left: 10%;
     }
 }
 @media (min-width: 2150px){
