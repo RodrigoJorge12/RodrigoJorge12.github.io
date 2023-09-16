@@ -1,15 +1,21 @@
-let hamburger = document.querySelector(".hamburger");
-let menu = document.querySelector(".menu");
-let botao = document.getElementById("botaoProjetoNaoConcluido");
+document.addEventListener("DOMContentLoaded", function () {
 
-botao.addEventListener("click",function(){
-  alert("Projeto em andamento, em breve estara disponivel")
+  let botao1 = document.getElementById("btn-projeto1");
+  let botao2 = document.getElementById("btn-projeto2");
+  let botao3 = document.getElementById("btn-projeto3");
+
+
+  botao1.addEventListener("click", function () {
+    alert("Projeto em andamento, em breve estara disponivel")
+  })
+
+  botao2.addEventListener("click", function () {
+    alert("Projeto em andamento, em breve estara disponivel")
+  })
+
+  botao3.addEventListener("click", function () {
+    alert("Projeto em andamento, em breve estara disponivel")
+  })
 })
 
-hamburger.addEventListener("click", function() {
-  menu.classList.toggle("show");
-});
 
-var url = 'https://wa.me/5522992043536';
-var qr = 'https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=' + encodeURIComponent(url);
-document.getElementById('qrcode').src = qr;
